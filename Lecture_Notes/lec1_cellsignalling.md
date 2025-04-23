@@ -151,7 +151,7 @@ $$
 
 as $n$ $\rightarrow$ large, this approaches a **step function**.
 
-![Hill](Images/Lec1/hillfunctions_diffn.png)
+![Hill](../Images/Lec1/hillfunctions_diffn.png)
 
 for a negative interaction where Y is inhibited by X:
 
@@ -206,7 +206,7 @@ e.g. O (operon on) iff Lactose ON and glucose OFF.
 It is tempting (and often useful) to adopt a network view, treating reactants/chemical species as signals/channels:
 
 
-![Network](Images/Lec1/network.png)
+![Network](../Images/Lec1/network.png)
 
 ## Dynamics of Biochemical Reactions: Microscopic vs Macroscopic 
 
@@ -222,7 +222,7 @@ $$
 
 If $m$ is considered discrete, we need to model reactions as probabilistic transitions in the following state diagram:
 
-![State](Images/Lec1/statediagram.png)
+![State](../Images/Lec1/statediagram.png)
 
 Here, the rates indicate a constant probability per unit time of a reaction happening. 
 
