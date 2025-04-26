@@ -35,6 +35,32 @@ $$
 
 ## Methylation Modifies Receptor Complex Activity
 
+Methylation changes the sensitivity of the receptors to the attractant:
+- Methyl groups are added (methylation): the receptor becomes less sensitive (e/g/ needs more S to inhibit)
+- Methyl groups are removed (demethylation) makes it more sensitive (needs less S to inhibit)
+
+In the model, we have:
+
+$$
+K_m \approx exp(\gamma m)
+$$
+
+As methylation increases, $K_m$ increases, so the receptor becomes **harder** to inhibit
+ As methylation decreaes, $K_m$ decreases, so the receptor becomes **easier** to inhibit.
+
+ Methylation rate in turn depends on the level of R and the rate of B:
+
+ $$
+\dot m = V_R R - V_B BX^*
+ $$
+
+ Thus, $m$ integrates the deviation of $X^*$ from a steady-state value, $X^*_{ss}$:
+
+ $$
+\dot m = V_B(X^*_{ss} - X^*)
+ $$
+
+ where 
 
 
 
